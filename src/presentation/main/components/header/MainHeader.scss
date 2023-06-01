@@ -1,0 +1,23 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  background-color: cadetblue;
+  display: flex;
+  text-align: center;
+}
+
+.logo-container {
+  flex-basis: 10%;
+
+  img {
+    height: 50px;
+    margin-top: 5px;
+  }
+}
+
+.app-name {
+  flex-basis: 80%;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
